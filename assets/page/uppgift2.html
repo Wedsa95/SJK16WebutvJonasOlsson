@@ -1,7 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">		<!--Refrenser till sidor jag andvände till att
+							jämföra html5:s nya tags betydelser och andvändnings
+							områden 
+							blog.proliit.se/semantik
+							www.w3schools.com/html/html5_semantic_elements.asp
+							Jag tykte inte att commentarerna passa in i <article>
+							men efter jag hade läst det här:
+							html5doctor.com/lets-talk-about.semantics/
+							från Ian Hickson en av personerna som va med och gjorde
+							html5 så förstod jag bättre.
+						-->
 	<head>
+		<meta charset="UTF-8">
+		<title>Facebookcopy</title>
+		<style>
+			p{ margin-top: -15px; }
+		</style>
 	</head>
 	<body>
-	</body>
+	<header>
+		<h1>Facebookcopy</h1>
+		<nav>
+			<a href="#home">Home</a>
+			<a href="#profile">Profile</a>
+			<a href="#Settings">Settings</a>
+		</nav>
+	</header>
+<hr>
+<main>
+	<section>
+		<article>
+			<h2>MusikLover56's status</h2>
+			<p>
+				Har "We are the champions - Queen" 
+				gjorts om!? 
+				&#128347;<time>2010-02-07 10:32</time>
+			</p>
+			<p>
+				Jag lyssnade på låten We
+ 				are the Champions by Queen
+       	        häromdagen och sjöng med,
+       			men när dem sjöng "No time for
+        		losers, cause we are the
+				Champions" så avslutade jag stycket
+ 				med "... of the world" men det
+				gjorde dem inte låten, har den gjorts
+				om?? är säker på att "of the world"
+				ska vara med!
+			</p>
+		</article>
+	</section>
+	<section>		
+		<h3>Comments</h3>
+			<article>
+				<h4>Cat_trainer31's post:</h4>
+				<p>
+					Du har nog fel.. lyssna om 
+					&#128347;<time>2010-02-07 20:59</time>
+				</p>
+			</article>						
+			<article>	
+				<h4>Realist11's post:</h4>
+				<p>
+					Du har upptäckt Mandela effecten,
+                    läs mer här 
+					<a href="https://www.buzzfeed.com/
+					christopherhudspeth/crazy-examples
+					-of-the-mandela-effect-that-will-
+					make-you-ques?utm_term=.jqwGYwq6v1#
+					.qePa790Nvl">Mandela effecten
+					</a> 
+					&#128347;<time>2010-02-08 05:37</time>
+				</p>
+			</article>
+	</section>						
+</main>
+<hr>
+	<footer>
+		<p>
+		<small>This has nothing to do
+		with the real Facebook other 
+		than showing a simple HTML element
+		semantic example with the use of
+		a typical facebook post entry <br>
+		<a href="https://www.facebook.com/">
+		Click here to find the original
+		facebook</a></small>
+		</p>
+	</footer>
+</body>
 </html>
