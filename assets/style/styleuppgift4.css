@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+*{
+	margin:0;
+	padding:0;
+	font-family: cursive, courier new, impact;
+}
+body{
+	background-color: #ff8000;
+}
+.style_button_one{
+	border: 15px groove #ff1311;
+	background-color: #1131ff;
+	padding-right:0px;
+	width:100%;
+	margin:0px;
+	font-size:30px;
+	animation-duration: 5s;
+	animation-delay: 4s;
+	animation-iteration-count:99;
+	animation-name: button_one;
+}
+.style_button_two{
+	border: 15px inset #6666ff;
+	height: 100px;
+	width:150px;
+	animation-duration: 2s;
+	animation-delay: 0s;
+	animation-iteration-count:56;
+	animation-name: button_two;
+}
+.style_div_one {
+	background-color: #66ffff;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count:88;
+	animation-name: div_one;
+}
+.style_div_two{
+	background-color: #ffff00;
+	text-align: center;
+	transition: 100s;
+	transition-timing-function: linear;
+	background-image: url("../resource/back.png");
+	background-position: right top;
+	animation-duration: 20s;
+	animation-delay: 10s;
+	animation-iteration-count:12;
+	animation-name: div_two;
+}
+.style_article_one, p{
+	font-size:12px;
+	font-family: courier new;
+	text-align: right;
+	animation-duration: 13s;
+	animation-delay: 9s;
+	animation-iteration-count:65;
+	animation-name: article_one;
+}
+.style_form_one, input[type=text], input[type=submit]{
+	font-size: 30px;
+	text-shadow: 9px 2px #dddd11;
+	border: 2px solid #aaf122;
+	border-radius: 50%;
+	animation-duration: 10s;
+	animation-delay: 4s;
+	animation-iteration-count:50;
+	animation-name: form_one;
+}
+.style_image_one{
+	height: 0%;
+	width:0%;
+	text-align:right;
+	animation-duration: 8s;
+	animation-delay: 15s;
+	animation-iteration-count:63;
+	animation-name: image_one;
+	visibility: hidden;
+}
+.material-icons.md-18{
+	font-size: 18px;
+	color: black;	
+	animation-duration: 2s;
+	animation-delay: 19s;
+	animation-iteration-count:34;
+	animation-name: icons;
+}
+.material-icons.md-100{
+	font-size: 100px;
+	color: #009933;	
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-iteration-count:70;
+	animation-name: icons;
+}
+.material-icons.md-75{
+	font-size: 75px;
+	color: red;	
+	animation-duration: 4s;
+	animation-delay: 0s;
+	animation-iteration-count:34;
+	animation-name: icons;
+}
+li{
+	list-style-type: none;
+	text-align: right;
+}
+@keyframes button_one{
+	0%{width:280px; }
+	20%{font-size: 15px; 
+	margin-top: 25px; 
+	text-size:15px;
+	}
+	40%{font-size: 1px; margin-top:30px;}
+	60%{ width: 100%;}
+	80%{font-size: 35px; margin-top: 5px;}
+	100%{width: 280px; }
+}
+@keyframes button_two{
+	0%{border-style: inset dashed dotted double; 
+	border-bottom-width: 25px;color: red;
+	}
+	25%{border-style: double inset dashed dotted; 
+	border-left-width: 25px; 
+	}
+	50%{ border-style: dotted double inset dashed; 
+	border-top-width: 25px;
+	}
+	75%{ border-style: dashed dotted double inset; 
+	border-right-width: 25px;color: green;
+	}
+	100%{ border-style: inset dashed dotted double;
+	border-bottom-width: 25px;
+	}
+}
+@keyframes div_one{
+	0%{transform: skewX(5deg); 
+	text-align: center;
+	border-radius: 30px;
+	}
+	10%{ text-align: center;}
+	80%{ text-align: center;}
+	99%{ text-align: center;}
+	100%{ transform: skewX(-5deg); 
+	border-radius: 30px;
+	}
+}
+@keyframes div_two{
+	0%{text-align: center;}
+	70%{text-align: left; }
+	100%{ text-align: center;}
+}
+@keyframes form_one{
+	0%{text-shadow: -9px -2px #dddd11; 
+	font-family:courier new; 
+	text-align: center; 
+	transform: skew(5deg,-5deg);
+	}
+	18%{ text-shadow: 13px 9px #ddddff;
+	border: 12px double #aaf122;
+	}
+	36%{text-shadow: -30px -15px #ffdd11; 
+	font-family:impact;
+	text-align: center;
+	transform: skew(-5deg,5deg);
+	}
+	78%{text-shadow: 50px 20px #ffffff; 
+	border: 2px solid #aaf122;
+	}
+	100%{text-shadow: -9px -2px #1ffe1a; 
+	font-family:courier new;
+	text-align: center;
+	transform: skew(5deg,-5deg);
+	}
+}
+@keyframes article_one{
+	0%{ }
+	30%{ padding-left: 40px; padding-right: 600px;
+	font-size: 0.9em; text-decoration:underline overline;}
+	65%{ padding-left: 90px; font-size:1.3em;}
+	85%{ text-align: left; padding-left: 450px;
+	text-decoration: line-through;}
+	100%{ padding-left: 30px; padding-right: 80px;
+	font-size:1.1em;}
+}
+@keyframes image_one{
+	0%{
+		visibility: visible;
+		position: fixed;
+		bottom:0;
+		right:0;
+		width: 100px;
+		height:300px;
+		transform: skewY(50deg);
+		
+	}
+	100%{
+		visibility: visible;
+		position:fixed;
+		bottom:0;
+		right:0;
+		height: 100px;
+		width: 300px;
+		transform: skewY(0deg);
+	}
+}
+@keyframes icons{
+	from{
+		transform: rotate(0deg);
+		
+	}
+	to{
+		transform: rotate(359deg);
+		
+	}
+}
