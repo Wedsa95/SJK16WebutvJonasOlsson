@@ -1,7 +1,7 @@
 console.log("script init");
 /*Hej det ser inte så snygtut så att vi båda vet*/
 document.getElementById("numberSum")
-.addEventListener("change", numberSumFunction);
+.addEventListener('change', numberSumFunction);
 document.getElementById("idNumber")
 .addEventListener('change', idNummberFuction);
 document.getElementById("leapYear")

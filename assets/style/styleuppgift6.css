@@ -18,6 +18,7 @@
 .calc__display{
 	background-color: lightyellow;
 	width: 120px;
+	height: 20px;
 	padding: 10px;
 	display: block;
 	margin-bottom: 5px;
@@ -43,7 +44,7 @@
 	border-color: black;
 }
 
-.calc__sign{
+.calc__sign, calc__sign__equals{
 	display: inline-block;
 	background-color: lightblue;
 	width: 20px;

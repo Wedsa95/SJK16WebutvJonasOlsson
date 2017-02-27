@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "fantasy", "monospace"; 
+}
+body{
+	
+	background-image: url("../resource/retina_wood.png");
+	background-image: repeat;
+	
+}
+main{
+	
+}
+header{
+	border-color: #66cc00;
+	border-radius: 35px;
+	border-style: dashed dashed solid dashed;
+	border-width: 2px 3px 7px 3px;
+	padding: 15px 10px 20px 10px;
+	margin-left: 20px; 
+	width: 50%;
+
+}	
+article{
+	
+}
+section{
+	
+}
+aside{
+	border: solid #66cc00;
+	border-radius: 20px;
+	border-width: 3px 7px 3px 2px;
+}
+footer{
+	border: solid #66cc00;
+	border-radius: 35px;
+	border-style: solid dashed dashed dashed;
+	border-width: 7px 3px 2px 3px;
+	padding: 10px 10px 10px 10px;
+	margin-left: 20px; 
+	width: 50%;
+}
+h1{
+	font-size: 4em;
+	color: #66cc00;
+}
