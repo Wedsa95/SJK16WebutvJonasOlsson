@@ -6,7 +6,17 @@ var all__voters = document.getElementById("all__voters");
 var your__vote = document.getElementById("your__vote");
 var stars = document.getElementsByClassName("material-icons gray");
 
+addAllEventListeners();
 
+function addAllEventListeners(){
+	document.getElementById("recipe__input")
+	.addEventListener("change", inputBoxChange, false);
+
+	for(var i = 0; i < stars.length; ++i){
+		stars[i].addEventListener("click", sendVoteScore, false);
+	}
+
+}
 
 function inputBoxChange(){
 	for(var i = 0; i < recipe__one__batch.length; ++i){
@@ -93,7 +103,7 @@ function loadTotalRating(){
 	xhttp.send();
 	
 }
-window.onloads = function(){
+window.onloads = function addEventListeners(){
 	document.getElementById("recipe__input")
 	.addEventListener("change", inputBoxChange, false);
 
