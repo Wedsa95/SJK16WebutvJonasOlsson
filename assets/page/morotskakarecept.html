@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../style/morotskakastyle.css">
 		<title>Morotskaka Recept</title>
 	</head>
@@ -19,12 +20,11 @@
 		</header>
 	<main>
 		<aside>		<!--de här numrena är för 12 bitar-->
-			<article>
-				
-					<h3>Ingredienser</h3>
-						<form>
-							Antal bitar: <input type="number" id="recipe__input" value="6" min="6" max="36" step="6">
-						</form>
+			<h3>Ingredienser</h3>
+				<form>
+					Antal bitar: <input type="number" 
+					id="recipe__input" value="6" min="6" max="36" step="6">
+				</form>
 						<h4>Kakan</h4>
 				<ul>
 					<li><span class="recipe__numbers">100</span> g morötter,</li>
@@ -42,11 +42,10 @@
 					<li><span class="recipe__numbers">100</span> g smör, rumsvarmt,</li>
 					<li><span class="recipe__numbers">50</span> dl florsocker,</li>
 				</ul>
-			</article>
 		</aside>
-		<section>
+	
 			<article>
-				<p>
+				<h2>Så här gör du!</h2>
 					<ol>
 						<li>Sätt ugnen på 180 grader. Riv morötterna fint.</li>
 						<li>Vispa ägg och socker vitt och pösigt i en bunke.
@@ -64,38 +63,36 @@
 						med en elvisp till fluffig glasyr. 
 						Bred ut den jämnt över rutorna.</li>
 					</ol>
-				</p>
-			</article>
-				<div id="rating__stars">
-					<span><button id="oneStar" class="stars"type="button">
-					<i class="material-icons gray">star</i></button></span>
-					<span><button id="twoStar" class="stars"type="button">
-					<i class="material-icons gray">star</i></button></span>
-					<span><button id="threeStar" class="stars"type="button">
-					<i class="material-icons gray">star</i></button></span>
-					<span><button id="foreStar" class="stars"type="button">
-					<i class="material-icons gray">star</i></button></span>
-					<span><button id="fiveStar" class="stars"type="button">
-					<i class="material-icons gray">star</i></button></span>
-				</div>
-				<p id="rating">
-					Betyg <span id="your__vote"></span> av  
-					<span id="all__voters"></span> röster
-				</p>
-		</section>
+		
+			<div id="rating__stars">
+				<span>
+				<i class="material-icons gray">star</i></span>
+				<span>
+				<i class="material-icons gray">star</i></span>
+				<span>
+				<i class="material-icons gray">star</i></span>
+				<span>
+				<i class="material-icons gray">star</i></span>
+				<span>
+				<i class="material-icons gray">star</i></span>
+			</div>
+		<p id="rating">
+			Betyg <span id="your__vote"></span> av  
+			<span id="all__voters"></span> röster
+		</p>
+	</article>
 	</main>
 		<footer>
 			<nav>
 				<ul>
-					<li class="nav__bar__li"><a href="http://tidningenhembakat.se
-					/bloggar/lindas-bakskola/morotskaka-
-					med-frosting/">Vems recept</a></li>
-					<li class="nav__bar__li"><a class="neee" href="#hit"> och </a></li>
-					<li class="nav__bar__li"><a class="neee" href="#hit"> sånt </a></li>
+					<li class="nav__bar__li"><a href="http://tidningenhembakat.se/bloggar/lindas-bakskola/morotskaka-med-frosting/">
+					Vems recept</a></li>
+					<li class="nav__bar__li"><a class="neee" href="#hit">Hitta på sidan</a></li>
+					<li class="nav__bar__li"><a class="neee" href="#hit">Info om kakor</a></li>
 				</ul>
 			</nav>
 		</footer>
-	<script language="javascript" type="text/javascript" src="../script/morotsscript.js"></script>
-	<script language="javascript" type="text/javascript" src="../script/voteajax.js"></script>
+	<script type="text/javascript" src="../script/morotsscript.js"></script>
+	
 	</body>
 </html>

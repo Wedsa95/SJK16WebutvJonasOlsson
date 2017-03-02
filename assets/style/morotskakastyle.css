@@ -6,10 +6,7 @@
 	font-family: "fantasy", "monospace"; 
 }
 body{
-	
 	background-image: url("../resource/retina_wood.png");
-	background-image: repeat;
-	
 }
 main{
 	display: -webfit-flex;
@@ -49,7 +46,7 @@ h1{
 	font-size: 4em;
 	color: #66cc00;
 }
-h4{
+h2, h4{
 	margin: 10px 35px 10px 20px;
 }
 ul{
@@ -57,6 +54,20 @@ ul{
 }
 ol{
 	margin: 20px;
+}
+a{
+	font-size: 1.3em;
+	color: #66cc00;
+	text-decoration:none;
+}
+a:hover , a:active{
+	color: green;
+}
+a:link{
+	color: #66cc00;
+}
+a:visited{
+	color: green;
 }
 .home__desc{
 	margin: 10px 35px 5px 20px; 
@@ -86,18 +97,14 @@ ol{
 .material-icons.gray{
 	font-size: 30px;
 	color: gray;	
-}.material-icons.green{
-	font-size: 30px;
-	color: green;	
 	animation-duration: 1s;
 	animation-delay: 0s;
 	animation-iteration-count:1;
-	animation-name: icons;
+	animation-name:name;	
 }
 .stars{
 	border: none;
 	background: none;
-	
 }
 #rating, #rating__stars{
 	text-align: center;
