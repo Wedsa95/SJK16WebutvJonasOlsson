@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 *{
 	margin: 0;
 	padding: 0;
@@ -10,39 +12,103 @@ body{
 	
 }
 main{
-	
+	display: -webfit-flex;
+	display: flex;
 }
 header{
 	border-color: #66cc00;
-	border-radius: 35px;
-	border-style: dashed dashed solid dashed;
+	border-radius: 35px 35px 35px 0;
+	border-style: outset outset solid dashed;
 	border-width: 2px 3px 7px 3px;
-	padding: 15px 10px 20px 10px;
-	margin-left: 20px; 
-	width: 50%;
-
+	padding: 15px 10px 20px 40px;
+	margin: 5px 20px 0px 20px; 
 }	
-article{
-	
-}
 section{
-	
+	width:70%;
 }
 aside{
-	border: solid #66cc00;
-	border-radius: 20px;
-	border-width: 3px 7px 3px 2px;
+	border-color: #66cc00;
+	border-style:none solid none dashed;
+	border-radius: 0 20px 20px 0;
+	border-width: 0px 7px 4px 3px;
+	width: 21.5%;
+	margin-left: 20px; 
+	padding: 10px 10px 10px 20px;
 }
 footer{
 	border: solid #66cc00;
-	border-radius: 35px;
-	border-style: solid dashed dashed dashed;
+	border-radius: 0 35px 35px 35px;
+	border-style: solid outset outset dashed;
 	border-width: 7px 3px 2px 3px;
-	padding: 10px 10px 10px 10px;
-	margin-left: 20px; 
-	width: 50%;
+	padding: 10px 10px 10px 40px;
+	margin: 0px 20px 10px 20px; 
+
+	min-height: 40px;
 }
 h1{
 	font-size: 4em;
 	color: #66cc00;
+}
+h4{
+	margin: 10px 35px 10px 20px;
+}
+ul{
+	list-style-type: none;
+}
+ol{
+	margin: 20px;
+}
+.home__desc{
+	margin: 10px 35px 5px 20px; 
+}
+.img__style{
+	width: 30%;
+	height: 30%;
+	float: left;
+	border-color: #66cc00;
+	border-style:none solid none dashed;
+	border-radius: 0 20px 20px 0;
+	border-width: 0px 7px 4px 3px;
+	margin-left: 20px; 
+	padding: 3px 3px 3px 3px;
+}
+.top__nav__bar{
+	overflow: hidden;
+	display: inline-block;
+	text-align:center;
+	text-decoration: none;
+}
+.nav__bar__li{
+	padding: 0px;
+	margin:0px 10px 0px 10px;
+	float: left;
+}
+.material-icons.gray{
+	font-size: 30px;
+	color: gray;	
+}.material-icons.green{
+	font-size: 30px;
+	color: green;	
+	animation-duration: 1s;
+	animation-delay: 0s;
+	animation-iteration-count:1;
+	animation-name: icons;
+}
+.stars{
+	border: none;
+	background: none;
+	
+}
+#rating, #rating__stars{
+	text-align: center;
+}
+@keyframes icons{
+	from{
+		transform: rotate(0deg);
+		
+	}
+	to{
+		transform: rotate(359deg);
+		
+	}
 }

@@ -5,26 +5,93 @@
 		<title>Morotskaka Recept</title>
 	</head>
 	<body>
-	<header>
+		<header>
 			<h1>Morotskaka</h1>
+			<nav>
+				<ul class="top__nav__bar">
+					<li class="nav__bar__li">
+					<a href="morotskaka.html">Hem</a></li>
+					<li class="nav__bar__li"><a class="neee">Bloggen</a></li>
+					<li class="nav__bar__li"><a class="neee">Kontakt</a></li>
+					<li class="nav__bar__li"><a class="neee">Andra Recept</a></li>
+				</ul>
+			</nav>
 		</header>
-		<main>
+	<main>
+		<aside>		<!--de här numrena är för 12 bitar-->
 			<article>
-				<cite>
-					Carrot cake is a cake. The cake 
-					contains carrots mixed into the 
-					batter. The carrot softens in the
-					cooking process, and the cake 
-					usually has a soft, dense texture.
-				</cite>
+				
+					<h3>Ingredienser</h3>
+						<form>
+							Antal bitar: <input type="number" id="recipe__input" value="6" min="6" max="36" step="6">
+						</form>
+						<h4>Kakan</h4>
+				<ul>
+					<li><span class="recipe__numbers">100</span> g morötter,</li>
+					<li><span class="recipe__numbers">2</span> ägg,</li>
+					<li><span class="recipe__numbers">2</span> dl strösocker,</li>
+					<li><span class="recipe__numbers">1</span> dl rapsolja,</li>
+					<li><span class="recipe__numbers">0,5</span> msk bakpulver,</li>
+					<li><span class="recipe__numbers">1</span> tsk vaniljsocker,</li>
+					<li><span class="recipe__numbers">1</span> tsk mald kanel,</li>
+					<li><span class="recipe__numbers">1</span> dl vetemjöl,</li>
+				</ul>
+					<h4>Cream cheese frosting</h4>
+				<ul>
+					<li><span class="recipe__numbers">2</span> g färskost, t ex Philadelphia,</li>
+					<li><span class="recipe__numbers">100</span> g smör, rumsvarmt,</li>
+					<li><span class="recipe__numbers">50</span> dl florsocker,</li>
+				</ul>
 			</article>
-		</main>
+		</aside>
+		<section>
+			<article>
+				<p>
+					<ol>
+						<li>Sätt ugnen på 180 grader. Riv morötterna fint.</li>
+						<li>Vispa ägg och socker vitt och pösigt i en bunke.
+						Tillsätt olja och morötter. Blanda ihop bakpulver,
+						vaniljsocker, kanel och vetemjöl. Rör ner det i äggsmeten
+						och blanda till en slät smet.</li>
+						<li>Häll smeten i en långpanna, ca
+						<span class="recipe__numbers">16</span> x <span class="recipe__numbers">12</span> cm,
+						klädd med bakplåtspapper.</li>
+						<li>Grädda kakan längst ner i ugnen i 43–45 min.
+						Låt den kallna i formen. Skär gärna kakan i rutor innan
+						du brer på glasyren så blir det mindre kladdigt när du
+						lossar rutorna från varandra.</li>
+						<li><strong>Glasyr: </strong> Vispa ihop alla ingredienser
+						med en elvisp till fluffig glasyr. 
+						Bred ut den jämnt över rutorna.</li>
+					</ol>
+				</p>
+			</article>
+				<div id="rating__stars">
+					<span><button id="oneStar" class="stars"type="button">
+					<i class="material-icons gray">star</i></button></span>
+					<span><button id="twoStar" class="stars"type="button">
+					<i class="material-icons gray">star</i></button></span>
+					<span><button id="threeStar" class="stars"type="button">
+					<i class="material-icons gray">star</i></button></span>
+					<span><button id="foreStar" class="stars"type="button">
+					<i class="material-icons gray">star</i></button></span>
+					<span><button id="fiveStar" class="stars"type="button">
+					<i class="material-icons gray">star</i></button></span>
+				</div>
+				<p id="rating">
+					Betyg <span id="your__vote"></span> av  
+					<span id="all__voters"></span> röster
+				</p>
+		</section>
+	</main>
 		<footer>
 			<nav>
 				<ul>
-					<a href="#hit">Lite länk  </a>
-					<a href="#hit"> och </a>
-					<a href="#hit"> sånt </a>
+					<li class="nav__bar__li"><a href="http://tidningenhembakat.se
+					/bloggar/lindas-bakskola/morotskaka-
+					med-frosting/">Vems recept</a></li>
+					<li class="nav__bar__li"><a class="neee" href="#hit"> och </a></li>
+					<li class="nav__bar__li"><a class="neee" href="#hit"> sånt </a></li>
 				</ul>
 			</nav>
 		</footer>
